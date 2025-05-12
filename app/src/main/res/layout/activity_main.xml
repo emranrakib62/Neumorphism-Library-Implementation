@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    tools:context=".MainActivity"
+    tools:ignore="ExtraText"
+   >
+
+    <soup.neumorphism.NeumorphCardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"
+        app:neumorph_shapeType="pressed"
+
+
+        >
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Hello, NeumorphCardView!"
+            android:textSize="18sp"
+            android:gravity="center"
+            android:padding="16dp"
+            android:textColor="#000000" />
+    </soup.neumorphism.NeumorphCardView>
+
+
+    <soup.neumorphism.NeumorphCardView
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:layout_margin="16dp"
+        android:padding="12dp"
+        app:neumorph_shapeType="basin"
+       app:neumorph_shadowElevation="6dp"
+       app:neumorph_shadowColorLight="#FFFFFF"
+        app:neumorph_shadowColorDark="#A3B1C6"
+        app:neumorph_backgroundColor="#E0E0E0"
+        app:neumorph_cornerFamily="rounded"
+        app:neumorph_cornerSize="16dp"/>
+
+
+    <soup.neumorphism.NeumorphCardView
+        android:id="@+id/myNeumorphCard"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        app:neumorph_shapeType="flat"
+    app:neumorph_shadowElevation="8dp"
+    app:neumorph_shadowColorLight="#DEEF38"
+    app:neumorph_shadowColorDark="#11E949"
+    app:neumorph_cornerFamily="rounded"
+    app:neumorph_cornerSize="16dp"
+    app:neumorph_lightSource="leftTop"
+
+    app:neumorph_backgroundColor="#000000" />
+
+
+
+</LinearLayout>
