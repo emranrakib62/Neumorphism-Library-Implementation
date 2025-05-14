@@ -5,7 +5,11 @@
 
 ## 💡 Neumorphism UI Setup
 
-This project uses the App level build.gradle 'implementation 'com.github.fornewid:neumorphism:0.3.0' Android library for soft UI design.
+This project uses the App level build.gradle
+
+implementation 'com.github.fornewid:neumorphism:0.3.0' 
+
+Android library for soft UI design.
 
 ### 📦 Dependency Setup
 
