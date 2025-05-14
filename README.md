@@ -3,17 +3,18 @@
 
 
 
-## 💡 Neumorphism UI Setup
+## 💡 For Neumorphism UI Setup
 
-This project uses the App level build.gradle
+#### 1.Add the library to your App-level build.gradle:
 
-implementation 'com.github.fornewid:neumorphism:0.3.0' 
+dependencies {
+    implementation 'com.github.fornewid:neumorphism:0.3.0'
+}
 
-Android library for soft UI design.
 
 ### 📦 Dependency Setup
 
-#### 1. Add JitPack to `settings.gradle`
+#### 2. Add JitPack to `settings.gradle`
 
 If you're using Gradle 7.0+ (with `settings.gradle` instead of `build.gradle`):
 
