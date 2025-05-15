@@ -2,8 +2,7 @@ package com.example.neaumorphismlibraryimplementation;
 
 import android.animation.ValueAnimator;
 import android.os.Bundle;
-import android.view.MotionEvent;
-import android.view.View;
+import android.widget.Toast;
 
 import soup.neumorphism.NeumorphCardView;
 import soup.neumorphism.ShapeType;
@@ -15,17 +14,18 @@ public class MainActivity extends AppCompatActivity {
 
     private NeumorphCardView neumorphCard;
 
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         EdgeToEdge.enable(this);
         setContentView(R.layout.activity_main);
 
+        // Circular animated button
         neumorphCard = findViewById(R.id.myNeumorphCard);
 
-        // Animate shadow elevation back and forth
         ValueAnimator animator = ValueAnimator.ofFloat(6f, 1f, 6f);
-        animator.setDuration(3000); // 2 seconds for smoother animation
+        animator.setDuration(3000); // 3 seconds for smooth looping
         animator.setRepeatCount(ValueAnimator.INFINITE);
         animator.setRepeatMode(ValueAnimator.REVERSE);
 

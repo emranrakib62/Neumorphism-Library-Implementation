@@ -60,4 +60,31 @@
 
 
 
+    <soup.neumorphism.NeumorphCardView
+        android:id="@+id/neumorphButton"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:layout_gravity="center"
+        android:layout_margin="16dp"
+        android:clickable="true"
+        android:focusable="true"
+        app:neumorph_shapeType="flat"
+        app:neumorph_lightSource="leftTop"
+        app:neumorph_shadowElevation="10dp"
+        app:neumorph_backgroundColor="#ECECEC"
+        app:neumorph_cornerRadius="70dp">
+
+
+
+    </soup.neumorphism.NeumorphCardView>
+
+
+
+
+
+
+
+
+
+
 </LinearLayout>
